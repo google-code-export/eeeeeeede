@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+<ModulePrefs title="Flash Player Container"
+title_url="http://sites.google.com/site/annuairevin/tips-and-tricks-for-google-sites"
+height="350"
+width="446"
+scrolling="false"
+directory_title="Flash Player Container (Allow full screen)"
+description="Flash Container. A Google Gadget to incorporate a Flash Player within
+Google Sites."
+screenshot="http://www.liens-du-vin.ch/_pic06/gadget-flash_slideshow-screenshot.png"
+thumbnail="http://www.liens-du-vin.ch/_pic06/gadget-flash_slideshow-thumb.png"
+author="Philippe Chappuis"
+author_email="info+gadgetCSE@liens-du-vin.ch"
+author_affiliation="Google"
+author_location="Rolle Switzerland"
+author_link="http://www.liens-du-vin.ch"
+author_photo="http://www.liens-du-vin.ch/_pic02/gadget-author-photo.png"
+author_aboutme="An Engineer who likes to develop for the Net and tastes wines"
+author_quote="A chief is a man who assumes responsibility. He says &quot;I was
+
+beaten&quot; he does not say &quot;My men were beaten&quot; - Antoine de
+
+Saint-Exupery">
+
+<Require feature="flash" />
+<Require feature="analytics" />
+
+</ModulePrefs>
+
+<UserPref name="File" display_name="File (*.swf)"
+required="true" default_value="http://www.liens-du-vin.ch/BR01-92-Blue-150x137.swf" />
+
+<UserPref name="FlashWidth" display_name="Width for Flash" required="true"
+default_value="150" />
+
+<UserPref name="FlashHeight" display_name="Height for Flash" required="true"
+default_value="137" />
+
+<UserPref name="ContainerCol" display_name="Container Color" required="true"
+default_value="#d1dae3" />
+
+<Content type="html">
+<![CDATA[
+
+<style type="text/css">
+body
+{
+padding: 0;
+margin: 0;
+background: __UP_ContainerCol__;
+}
+
+</style>
+
+<div id="flashcontainer" style="text-align: center; "></div>
+
+<script type="text/javascript">
+
+// Global variables
+
+var prefs = new _IG_Prefs(__MODULE_ID__);
+
+var s_fil=_trim(prefs.getString("File"));
+
+var s_fwi=_trim(prefs.getString("FlashWidth"));
+var s_fhe=_trim(prefs.getString("FlashHeight"));
+
+
+// Play .swf file
+function displaySlide()
+{
+
+// Play .swf file.
+_IG_EmbedFlash(s_fil, "flashcontainer", {
+swf_version: 9,
+id: "flashid",
+wmode: "transparent",
+allowfullscreen : "true",
+scale: "showall",
+width: s_fwi,
+height: s_fhe
+})
+}
+
+
+
+// When gadget first loads, display slide
+_IG_RegisterOnloadHandler(displaySlide);
+  
+_IG_Analytics("UA-442758-35", "/g_flash_container");
+
+</script>
+]]>
+</Content>
+</Module>
