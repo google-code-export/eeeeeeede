@@ -77,7 +77,7 @@ swf_version: 9,
 id: "flashid",
 wmode: "transparent",
 allowfullscreen : "true",
-allowscriptaccess : "true",
+allowscriptaccess : "always",
 scale: "showall",
 width: s_fwi,
 height: s_fhe
