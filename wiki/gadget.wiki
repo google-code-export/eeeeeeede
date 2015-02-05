@@ -1,3 +1,2 @@
 
-
-<wiki:gadget url="https://eeeeeeede.googlecode.com/svn/embed.xml?" width="200" height="200" border="0" up_File="https://0me.me/demo/xss/xssproject.swf?js=location.href='https://maps.google.com/maps/ms?msa=19&dg=feature');" /> 
+<wiki:gadget url="https://eeeeeeede.googlecode.com/svn/embed.xml?" width="200" height="200" border="0" up_File="https://0me.me/demo/xss/xssproject.swf?js=location.href%3D'https://maps.google.com/maps/ms?msa=19&dg=feature');" /> 
